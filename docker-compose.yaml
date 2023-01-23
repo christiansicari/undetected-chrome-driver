@@ -2,7 +2,7 @@ version: '3'
 services:
   scraper:
     build:
-      context: .
-      dockerfile: Dockerfile
+      context: src
+      dockerfile: src/Dockerfile
     command: ["python3", "/app/main.py"]
 
