@@ -5,4 +5,6 @@ services:
       context: src
       dockerfile: src/Dockerfile
     command: ["python3", "/app/main.py"]
+    ports:
+      - "3389:3389"
 
